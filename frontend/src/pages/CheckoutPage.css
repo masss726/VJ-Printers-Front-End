@@ -1,0 +1,45 @@
+.checkout-container {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.checkout-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.checkout-description {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Grid layout for larger screens */
+.checkout-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* Each box */
+.checkout-box {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 768px) {
+  .checkout-grid {
+    grid-template-columns: 1fr; /* stack vertically */
+  }
+
+  .checkout-title {
+    font-size: 1.5rem;
+  }
+
+  .checkout-description {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,47 @@
+<svg width="1440" height="420" viewBox="0 0 1440 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0369a1;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0c4a6e;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="420" fill="url(#grad5)" />
+  <!-- Ice Cream (Center-Left) -->
+  <g id="icecream-main">
+    <path d="M 300 180 L 350 310 L 250 310 Z" fill="#d4914d" stroke="#a0602f" stroke-width="2" />
+    <circle cx="300" cy="110" r="42" fill="#fca5a5" />
+    <circle cx="280" cy="90" r="34" fill="#fecaca" />
+    <circle cx="320" cy="95" r="36" fill="#fecaca" />
+    <path d="M 275 130 Q 300 115 325 130" fill="#fff" opacity="0.4" />
+  </g>
+  <!-- Gift Box (Center) -->
+  <g id="gift-main">
+    <rect x="700" y="170" width="120" height="150" rx="10" fill="#dc2626" />
+    <ellipse cx="760" cy="170" rx="60" ry="15" fill="#ef4444" />
+    <rect x="750" y="148" width="20" height="180" fill="#fbbf24" />
+    <path d="M 730 210 L 790 210 M 760 190 L 760 250" stroke="#fff" stroke-width="1.5" opacity="0.5" />
+  </g>
+  <!-- Toy - Rocket (Right) -->
+  <g id="rocket">
+    <polygon points="1250,150 1280,280 1220,280" fill="#f472b6" stroke="#ec4899" stroke-width="2" />
+    <circle cx="1250" cy="130" r="20" fill="#fbbf24" />
+    <circle cx="1240" cy="260" r="12" fill="#059669" />
+    <circle cx="1260" cy="260" r="12" fill="#059669" />
+  </g>
+  <!-- Toys - Spinning Ball (Left) -->
+  <g id="ball">
+    <circle cx="120" cy="280" r="28" fill="#06b6d4" />
+    <path d="M 92 280 Q 120 265 148 280 Q 120 295 92 280" fill="#22d3ee" />
+    <circle cx="120" cy="280" r="4" fill="#fff" />
+  </g>
+  <!-- Toys - Jack Stone (Right-Bottom) -->
+  <g id="jackstone">
+    <circle cx="1320" cy="330" r="12" fill="#a855f7" />
+    <line x1="1310" y1="320" x2="1330" y2="340" stroke="#d8b4fe" stroke-width="2" />
+    <line x1="1330" y1="320" x2="1310" y2="340" stroke="#d8b4fe" stroke-width="2" />
+  </g>
+  <!-- Stars -->
+  <circle cx="450" cy="70" r="2.5" fill="#fbbf24" opacity="0.6" />
+  <circle cx="1050" cy="60" r="2" fill="#fbbf24" opacity="0.7" />
+  <circle cx="650" cy="90" r="3" fill="#34d399" opacity="0.5" />
+</svg>
